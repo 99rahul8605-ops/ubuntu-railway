@@ -1,4 +1,4 @@
-FROM ubuntu:26.04
+FROM ubuntu:22.04
 
 RUN apt-get update && apt-get install -y \
     openssh-server sudo curl wget nano git python3 python3-pip \
